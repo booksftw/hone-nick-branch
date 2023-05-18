@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiBadge-badge {
+  @apply bg-orange-500;
+  @apply text-white;
+}
+
+.MuiIconButton-badge {
+  @apply bg-orange-500;
+}
+
+.MuiAvatar-colorDefault {
+  @apply bg-orange-500;
+}
+
+.MuiTypography-h4 {
+  @apply text-orange-500;
+  @apply font-bold;
+}
+
+/* .MuiAvatar-root .MuiBadge-badge {
+  @apply bg-green-500;
+} */
+
+.MuiBadge-dot {
+  @apply bg-green-500;
+}

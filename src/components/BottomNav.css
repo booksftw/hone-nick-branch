@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiBottomNavigation-root {
+  /* background-color: white;
+  color: #ff6200;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  border-top: 1px solid #333; */
+  @apply flex justify-around;
+  @apply w-full;
+  @apply bg-white;
+  @apply fixed;
+  @apply bottom-0;
+  @apply z-50;
+  @apply border-t;
+  @apply border-gray-700;
+}
+
+/* .button {
+  @apply bg-orange-500;
+} */
+
+.MuiBottomNavigationAction-root {
+  @apply bg-orange-500;
+}
+
+.MuiSvgIcon-root.Mui-selected {
+  @apply text-orange-500;
+}
+
+.MuiTouchRipple-root.Mui-selected {
+  @apply bg-orange-500;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+  /* @apply bg-orange-100; */
+  @apply text-orange-500;
+  /* @apply bordercolor-orange-500; */
+}
+
+/* .MuiBottomNavigationAction-root.MuiButton-outlined.Mui-selected {
+  @apply border-2;
+  @apply border-orange-500;
+  @apply text-orange-500;
+  @apply hover:bg-orange-500;
+  @apply hover:text-white;
+  @apply hover:border-orange-500;
+}
+
+.MuiButton-outlinedPrimary {
+  @apply border-2;
+  @apply border-orange-500;
+  @apply text-orange-500;
+  @apply hover:bg-orange-500;
+  @apply hover:text-white;
+  @apply hover:border-orange-500;
+} */
+
+/* .MuiBottomNavigationAction-root.MuiButton-outlineds.MuiButton-selected {
+  @apply border-2;
+  @apply border-orange-500;
+  @apply text-orange-500;
+  @apply hover:bg-orange-500;
+  @apply hover:text-white;
+  @apply hover:border-orange-500;
+} */
